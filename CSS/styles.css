@@ -12,7 +12,7 @@ input, select{
     border-style: none;
     border-bottom-style:solid;
     border-bottom-color: rgb(145, 145, 247);
-    
+    background-color: white;
 }
 input{
     width: 200px;
