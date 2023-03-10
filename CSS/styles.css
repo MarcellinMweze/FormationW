@@ -1,0 +1,10 @@
+body{
+    background-color: whitesmoke;
+}
+table, th, tr, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+img{
+    border-style: groove;
+}
