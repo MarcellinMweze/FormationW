@@ -8,3 +8,16 @@ table, th, tr, td{
 img{
     border-style: groove;
 }
+input, select{
+    border-style: none;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(145, 145, 247);
+    
+}
+input{
+    width: 200px;
+    height: 35px;
+}
+select{
+    height: 30px;
+}
