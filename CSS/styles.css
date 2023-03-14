@@ -40,6 +40,9 @@ tbody tr:nth-child(odd){
 h1, h2{
     font-family: oswald2;
 }
+ul, p{
+    text-align: justify;
+}
 
 
 
