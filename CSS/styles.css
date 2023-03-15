@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 @font-face {
     font-family: oswald;
     src: url('../Fonts/Raleway-VariableFont_wght.ttf');
@@ -11,13 +17,110 @@
 body{
     background-color: whitesmoke;
     font-family: oswald;
+    margin-top: 30px;
+    
 }
+
+.barnav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(171, 217, 255);
+    height: 30px;
+    top:0px;
+    position: fixed;
+    
+
+}
+
+.contacts{
+    width: 50%;
+    margin:0 auto;
+        
+}
+
+.cont, .liencontact, .bas{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    
+
+}
+
+.cont, .bas{
+    padding-top:1.5px;
+}
+
+.bas, .liencontact{
+    border: 2px solid #e6e6e6;
+    
+}
+
+.bas{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background-color: white;   
+    
+}
+
+.liencontact{
+    color: white;
+    border-radius: 5px;
+    top: 5px;
+    list-style-type: none;
+    margin-right: 500px;
+    background-color: #504d4d;
+    padding:2px 2px 0px 2px;
+    
+    
+}
+
+.liencontact:hover{
+    background-color: rgb(252, 243, 243);
+    color: black;
+    
+}
+
+.contener{
+    
+    width: 50%;
+    background-color: rgb(238, 236, 236);
+    margin: 0 auto;
+    color: #050505; 
+    
+
+}
+
+.detail{
+    padding: 0 5px 5px 5px;
+}
+
+.entete, h1, img{
+    background-color: #5d5a63; 
+    display: flex;
+    margin: 0 auto ;
+    align-items: center;
+    color: white;
+            
+}
+
+.identite{
+     
+}
+
+ul, li{
+    list-style-type: none;
+}
+
 table, th, tr,td{
     border-collapse: collapse;
     border: 1px solid black;
 }
 img{
-    border-style: groove;
+    
+    border: 1px solid #5d5a63;  
 }
 input, select{
     border-style: none;
@@ -43,6 +146,7 @@ h1, h2{
 ul, p{
     text-align: justify;
 }
+
 
 
 
