@@ -137,7 +137,7 @@ select{
     height: 30px;
 }
 tbody tr:nth-child(odd){
-    background-color: #bea8e9;
+    background-color: #dccff8;
 }
 
 h1, h2{
